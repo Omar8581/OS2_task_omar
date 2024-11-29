@@ -14,16 +14,15 @@ jobs:
 
 
     steps:
-      - name: 'testing github action'
-        run: pwd
+      # - name: 'testing github action'
+      #   run: pwd
 
-      - name: 'testing printing'
-        run: echo omar
-
+      # - name: 'testing printing'
+      #   run: echo omar
 
       - uses: actions/checkout@v3
 
-      - name: 'list'
-        run: ls
+      - name: "login to docker hub"
+        run: docker login --username omar2307 --password dckr_pat_ue_V7G2sgQgmAam3jKenU4iLd6I
 
 
