@@ -17,6 +17,6 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "login to docker hub"
-        run: docker login -u omar2307 --password dckr_pat_vy03GGsqTlkFQqR2fWVoPgFoI3Q 
+        run: docker login -u omar2307 --password omarmosa010089748840 
 
 
