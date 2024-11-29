@@ -21,3 +21,9 @@ jobs:
         run: echo omar
 
 
+      - uses: actions/checkout@v3
+
+      - name: 'list'
+        run: ls
+
+
